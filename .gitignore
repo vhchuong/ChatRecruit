@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Log files
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
