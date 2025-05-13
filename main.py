@@ -18,9 +18,11 @@ import re
 import uvicorn
 
 # Load environment variables from .env file
-# load_dotenv()
+load_dotenv()
+
+# Initialize OpenAI client with API key from environment variables
 client = OpenAI(
-  api_key="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"
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 def count_tokens(prompt: str, model: str = "gpt-4"):
