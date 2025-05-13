@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+}
+
+input, button {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+#status {
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Removed styles for #downloadExcelBtn */
+/*
+#downloadExcelBtn {
+  transition: opacity 0.3s ease-in-out;
+}
+
+#downloadExcelBtn:not(.hidden) {
+  opacity: 1;
+}
+*/
