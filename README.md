@@ -10,6 +10,10 @@ A modern AI-powered CV screening and analysis tool that helps recruiters match c
 - **Strength & Weakness Analysis**: Identifies key strengths and weaknesses for each candidate
 - **Excel Report Export**: Generate downloadable Excel reports of analysis results
 
+## Frontend Overview
+
+![Frontend Screenshot](figures/Frontend.png)
+
 ## Tech Stack
 
 - **Backend**: FastAPI (Python)
